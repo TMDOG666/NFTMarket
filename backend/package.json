@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "graphql": "nodemon graphQLServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.16.2",
+    "apollo-server": "^3.13.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "mongoose": "^8.8.2"
+  },
+  "packageManager": "yarn@4.5.2+sha512.570504f67349ef26d2d86a768dc5ec976ead977aa086b0bb4237e97d5db7ae5c620f9f0e0edf3ea5047205063faff102bf2a2d778664a94eaaa1085ad483fe2e"
+}
